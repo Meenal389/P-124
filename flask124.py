@@ -2,18 +2,18 @@ from flask import Flask,jsonify,request
 
 app=Flask(__name__)
 
-tasks = [
+data = [
     {
-        'id': 1,
-        'title': u'Buy groceries',
-        'description': u'Milk, Cheese, Pizza, Fruit, Tylenol', 
-        'done': False
+        'contact':9543434535,
+        'name':'Raju',
+        'done':false,
+        'id':1
     },
     {
-        'id': 2,
-        'title': u'Learn Python',
-        'description': u'Need to find a good Python tutorial on the web', 
-        'done': False
+        'contact':9543856948,
+        'name':'Rahul',
+        'done':false,
+        'id':2
     }
 ]
 
